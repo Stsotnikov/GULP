@@ -1,0 +1,127 @@
+.main_menu ul{
+	display: flex !important;
+	justify-content:space-between !important;
+}
+
+.main_menu li {
+	position: relative !important;;
+}
+
+
+.lkarenda {
+	text-align: right;
+}
+.lkarenda a,.rightarenda a {
+	padding: 0 !important;
+	text-decoration: none;
+}
+.lkarenda a {
+	margin-top: 12px;
+}
+.infoarenda {
+	display: inline;
+	color: black;
+}
+.leftarenda {
+	float: left;
+	display: flex;
+}
+.rightarenda {
+	float: right;
+	text-align: right;
+}
+.infohead {
+	padding: 10px;
+	margin-left: 20px;
+	width: 200px;
+}
+.rightarenda p {
+	margin-bottom: 5px;
+}
+.wa {
+	background-color: #1ebea5 !important;
+	border-color: #1ebea5 !important;
+}
+.header-top-bar {
+	height: 50px;
+}
+@media (max-width: 767px) {
+	.rightarenda {
+		display: none;
+	}
+	.main_menu_col {
+		margin-top: 10px;
+		display: block !important;
+		background-color: #e3db31;
+		padding: 10px 0;
+	}
+	.waMobile, .phoneMobile, .userMobile {
+		font-size: 23px;
+	    border-radius: 15px;
+	    padding: 6px 12px;
+	    cursor: pointer;
+	    display: block !important;
+	    color: white;
+	    margin: 0 5px;
+	}
+	.mobileIcons {
+		display: flex !important;
+	}
+	.leftblock {
+		float: left;
+	}
+	.mobileIcons {
+		float: right;
+	}
+	.menu-item {
+		color: black !important;
+	}
+	.active_menu {
+		display: block !important;
+	}
+	.main_menu1ps {
+		display: none !important;
+	}
+	.leftblock {
+	    padding: 10px;
+	    border-radius: 30px;
+	    width: 41px;
+	    font-size: 20px;
+	    text-align: center;
+	    display: table-cell !important;
+	}
+	.leftblock a, .leftblock a:hover {
+		color: white;
+	}
+	.lkarenda {
+		display: none !important;
+	}
+	.infoarenda {
+		margin-top: 0 !important;
+	}
+	.navigation-bar {
+		padding-bottom: 0 !important;
+	}
+}
+.mobileIcons {
+	display: none;
+}
+#offcanvas_menu_1ps {
+	display: none;
+}
+.leftblock {
+	display: none;
+}
+.menu-item a {
+	border-bottom: 0 !important;
+}
+.lkarenda {
+	background-color: black;
+    position: absolute;
+    top: -2px;
+    width: 100%;
+    left: 0;
+}
+.infoarenda {
+	margin-top: 50px;
+}
